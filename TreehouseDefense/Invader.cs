@@ -8,16 +8,6 @@ namespace TreehouseDefense
 {
     class Invader
     {
-        private MapLocation _location;
-
-        public MapLocation GetLocation()
-        {
-            return _location;
-        }
-
-        public void SetLocation(MapLocation location)
-        {
-            _location = location;
-        }
+        public MapLocation Location { get; private set; }
     }
 }
